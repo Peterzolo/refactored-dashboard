@@ -127,8 +127,15 @@ const Sidebar = () => {
 
             <Typography
               variant="h6"
-              color={colors.grey[300]}
+              color={colors.grey[100]}
               sx={{ m: "15px 0 5px 20px" }}
+              backgroundColor={colors.primary[500]}
+              style={{
+                padding: "10px",
+                width: "150px",
+                borderRadius: "10px",
+                textAlign: "center",
+              }}
             >
               Data
             </Typography>
@@ -156,8 +163,15 @@ const Sidebar = () => {
 
             <Typography
               variant="h6"
-              color={colors.grey[300]}
+              color={colors.grey[100]}
               sx={{ m: "15px 0 5px 20px" }}
+              backgroundColor={colors.primary[500]}
+              style={{
+                padding: "10px",
+                width: "150px",
+                borderRadius: "10px",
+                textAlign: "center",
+              }}
             >
               Pages
             </Typography>
@@ -185,8 +199,15 @@ const Sidebar = () => {
 
             <Typography
               variant="h6"
-              color={colors.grey[300]}
+              color={colors.grey[100]}
               sx={{ m: "15px 0 5px 20px" }}
+              backgroundColor={colors.primary[500]}
+              style={{
+                padding: "10px",
+                width: "150px",
+                borderRadius: "10px",
+                textAlign: "center",
+              }}
             >
               Charts
             </Typography>
