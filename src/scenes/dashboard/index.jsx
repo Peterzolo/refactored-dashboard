@@ -19,7 +19,6 @@ const Dashboard = () => {
 
   return (
     <Box m="20px">
-      {/* HEADER */}
       <Box display="flex" justifyContent="space-between" alignItems="center">
         <Header title="ADMIN DASHBOARD" subtitle="Welcome to Nuspring" />
         <Box>
@@ -52,6 +51,7 @@ const Dashboard = () => {
           display="flex"
           alignItems="center"
           justifyContent="center"
+          borderRadius="10px"
         >
           <StatBox
             title="12,361"
@@ -71,6 +71,7 @@ const Dashboard = () => {
           display="flex"
           alignItems="center"
           justifyContent="center"
+          borderRadius="10px"
         >
           <StatBox
             title="431,225"
@@ -90,6 +91,7 @@ const Dashboard = () => {
           display="flex"
           alignItems="center"
           justifyContent="center"
+          borderRadius="10px"
         >
           <StatBox
             title="32,441"
@@ -109,6 +111,7 @@ const Dashboard = () => {
           display="flex"
           alignItems="center"
           justifyContent="center"
+          borderRadius="10px"
         >
           <StatBox
             title="1,325,134"
@@ -128,6 +131,7 @@ const Dashboard = () => {
           gridColumn="span 8"
           gridRow="span 2"
           backgroundColor={colors.primary[400]}
+          borderRadius="10px"
         >
           <Box
             mt="25px"
@@ -205,7 +209,7 @@ const Dashboard = () => {
               </Box>
               <Box color={colors.grey[100]}>{transaction.date}</Box>
               <Box
-                backgroundColor={colors.greenAccent[500]}
+                backgroundColor={colors.primary[500]}
                 p="5px 10px"
                 borderRadius="4px"
               >
